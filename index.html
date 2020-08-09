@@ -1,1 +1,270 @@
-hello, World!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talkative's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned Security engineer Talkative"
+    />
+    <meta name="author" content="Talkative" />
+    <link rel="icon" type="image/png" href="imgs/Talkative.png" />
+    <script
+      src="https://kit.fontawesome.com/3830e039ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar-->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fas fa-bug"></i>
+        <a href="#">Talkative</a>
+      </div>
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item active" data-link="#home">Home</li>
+          <li class="navbar__menu__item" data-link="#about">About</li>
+          <li class="navbar__menu__item" data-link="#skills">Skills</li>
+          <li class="navbar__menu__item" data-link="#work">My work</li>
+          <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+      </div>
+
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img src="imgs/Jin.jpg" alt="Talkative's photo" class="home__avatar">
+        <h1 class="home__title">Hello, <br />I'm Hyunjin You</h1>
+        <h2 class="home__description">A White Hacker currently residing in South Korea.</h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>About me</h1>
+      <p>오펜시브 시큐리티에 관심이 있어  모의해킹,정보보안을 공부하고 있는 유현진입니다.<br />버그바운티,CTF에 참여하고 해외블로그,트위터 등을 참고하며 개인 역량을 쌓고있습니다.</p>
+        <div class="about__majores">
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-html5"></i>
+            </div> 
+            <h2 class="major__title">Stack</h2>
+            <div class="major__description">
+              HTML,CSS,JavaScript,<br />PHP,MySQL,Python
+            </div>
+          </div>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-microblog"></i>
+            </div> 
+            <h2 class="major__title">Blog</h2>
+            <div class="major__description">
+              <a href="https://blog.naver.com/talkativehacker" target="_blank"><font color="black">Talkative 블로그 이동하기</font></a>
+            </div>
+          </div>
+          <div class="major">
+            <div class="major__icon">
+              <i class="far fa-id-badge"></i>
+            </div> 
+            <h2 class="major__title">License</h2>
+            <div class="major__description">
+              정보보안기사,정보보안산업기사
+            </div>
+          </div>
+        </div>
+        <div class="about__jobs">
+          <div class="job">
+            <img src="imgs/jobs/plane.png" alt="Study" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">Philippines Language training</p>
+              <p class="job__period">2016.01~03</p>
+            </div>
+          </div>
+          <div class="job">
+            <img src="imgs/jobs/plane.png" alt="Study" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">Australia Working holiday</p>
+              <p class="job__period">2016.03~2017.02</p>
+            </div>
+          </div>
+          <div class="job">
+            <img src="imgs/jobs/student.png" alt="boanproject" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">BoanProject Penetration Course</p>
+              <p class="job__period">2019.02~2019.06</p>
+            </div>
+          </div>
+          <div class="job">
+            <img src="imgs/jobs/student.png" alt="kshiled" class="job__logo">
+            <div class="job__description">
+              <p class="job__name">K-Shiled Jr 4th</p>
+              <p class="job__period">2020.03~2019.06</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+          다룰 수 있는 기술/언어입니다.<br /> Project leader로 프로젝트를 진행해보고 팀원으로서 프로젝트,스터디를 참여한 적이 있어 팀 환경에 잘 적응할 수 있으며 뒤처지지 않기 위해 항상 발전할 수 있도록 노력하고 있습니다.
+        </p>
+
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>95%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JAVASCRIPT</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>PHP</span>
+                <span>60%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 60%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>MySQL</span>
+                <span>65%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 65%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Python</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span>BurpSuite</span></li>
+                <li><span>Penetration Tools</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+              <ul class="etc__list">
+                <li><span>BugBounty Study</span></li>
+                <li><span>CTF Study</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+      <h1>My Work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter ="*">All <span class="category__count">4</span></button>
+        <button class="category__btn" data-filter ="Development">Development <span class="category__count">2</span></button>
+        <button class="category__btn" data-filter ="BugBounty">BugBounty <span class="category__count">1</span></button>
+        <button class="category__btn" data-filter ="Hacking">Hacking <span class="category__count">1</span></button>
+      </div>
+
+      <div class="work__projects">
+        <a href="https://www.notion.so/Super-Pang-44346201d0894a859014e698341f115a" class="project" target="_blank" data-type="Development">
+          <img src="imgs/prjoect/super.png" alt="Game">
+          <div class="project__description">
+            <h3>Super Pang</h3>
+            <span>Super Pang Game with Python</span>
+          </div>
+          </a>
+
+          <a href="https://www.notion.so/7fe3ebe66e41462c956911b218788086" class="project" target="_blank" data-type="BugBounty">
+            <img src="imgs/prjoect/bug.png" alt="Game">
+            <div class="project__description">
+              <h3>Bug Bounty</h3>
+              <span>BugBounty Project</span>
+            </div>
+            </a>
+
+            <a href="https://www.notion.so/8e0cb16967bf4e6fb86eb6cb0c3deefc" class="project" target="_blank" data-type="Hacking">
+              <img src="imgs/prjoect/report.png" alt="Game">
+              <div class="project__description">
+                <h3>Report</h3>
+                <span>Penetration Test Report</span>
+              </div>
+              </a>
+             <a href="https://www.notion.so/a0c0b0cc3e604d03a9c4eab5c49a006d" class="project" target="_blank" data-type="Development">
+               <img src="imgs/prjoect/mobile.png" alt="mobile">
+               <div class="project__description">
+                 <h3>야밤의 뚜벅이</h3>
+                 <span>Android Mobile Application</span>
+               </div>
+               </a>              
+            
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Contact</h1>
+      <h2 class="contact__email">talkativejin@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://www.notion.so/You-Hyun-Jin-95fc56e872c04693a4341402174ebcc5" target="_blank">
+          <i class="far fa-clipboard"></i>
+        </a>
+        <a href="https://github.com/TalkativeJin" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2020 TalkativeJin - All rights reserved</p>
+    </section>
+
+  </body>
+</html>
